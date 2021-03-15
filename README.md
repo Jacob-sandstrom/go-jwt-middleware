@@ -1,3 +1,6 @@
+**NOTE:** This fork of auth0/go-jwt-middleware is identical to the original except that it uses a fork of jwt-go that ignores IssuedAt claim when validating
+
+
 # GO JWT Middleware
 
 **NOTE:** We released this version using a fork of jwt-go in order to address a security vulnerability. Due to jwt-go not being actively maintained we will be looking to switch to a more actively maintained package in the near future.
@@ -14,7 +17,7 @@ This module lets you authenticate HTTP requests using JWT tokens in your Go Prog
 ## Installing
 
 ````bash
-go get github.com/auth0/go-jwt-middleware
+go get github.com/Jacob-sandstrom/go-jwt-middleware
 ````
 
 ## Using it
@@ -29,8 +32,8 @@ import (
   "fmt"
   "net/http"
 
-  "github.com/auth0/go-jwt-middleware"
-  "github.com/form3tech-oss/jwt-go"
+  "github.com/Jacob-sandstrom/go-jwt-middleware"
+  "github.com/Jacob-sandstrom/jwt-go"
   "context"
 )
 
@@ -70,9 +73,9 @@ import (
   "fmt"
   "net/http"
 
-  "github.com/auth0/go-jwt-middleware"
+  "github.com/Jacob-sandstrom/go-jwt-middleware"
   "github.com/urfave/negroni"
-  "github.com/form3tech-oss/jwt-go"
+  "github.com/Jacob-sandstrom/jwt-go"
   "github.com/gorilla/mux"
 )
 
@@ -120,7 +123,7 @@ type Options struct {
   // Default value: "user"
   UserProperty string
   // The function that will be called when there's an error validating the token
-  // Default value: https://github.com/auth0/go-jwt-middleware/blob/master/jwtmiddleware.go#L35
+  // Default value: https://github.com/Jacob-sandstrom/go-jwt-middleware/blob/master/jwtmiddleware.go#L35
   ErrorHandler errorHandler
   // A boolean indicating if the credentials are required or not
   // Default value: false
@@ -177,7 +180,7 @@ jwtmiddleware.New(jwtmiddleware.Options{
 
 ## Examples
 
-You can check out working examples in the [examples folder](https://github.com/auth0/go-jwt-middleware/tree/master/examples)
+You can check out working examples in the [examples folder](https://github.com/Jacob-sandstrom/go-jwt-middleware/tree/master/examples)
 
 
 ## What is Auth0?

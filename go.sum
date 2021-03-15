@@ -1,3 +1,6 @@
+github.com/Jacob-sandstrom/jwt-go v1.0.2 h1:luLf4EAorqTghv42PL/y8q6J23exnSEDN1ody794xr0=
+github.com/Jacob-sandstrom/jwt-go v3.2.2+incompatible h1:U7fwkNtHDV0+4ubf7sRBVFN8zoE8XHJzSJvF6Ch555o=
+github.com/Jacob-sandstrom/jwt-go v3.2.2+incompatible/go.mod h1:f05Ob3TGd6mg8I7EKufbaW1s5bT/POZRHjQZ7O4bijU=
 github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0 h1:sDMmm+q/3+BukdIpxwO365v/Rbspp2Nt5XntgQRXq8Q=
 github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0/go.mod h1:4Zcjuz89kmFXt9morQgcfYZAYZ5n8WHjt81YYWIwtTM=
 github.com/form3tech-oss/jwt-go v3.2.2+incompatible h1:TcekIExNqud5crz4xD2pavyTgWiPvpYe4Xau31I0PRk=

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	jwtmiddleware "github.com/auth0/go-jwt-middleware"
-	"github.com/form3tech-oss/jwt-go"
+	jwtmiddleware "github.com/Jacob-sandstrom/go-jwt-middleware"
+	"github.com/Jacob-sandstrom/jwt-go"
 	"github.com/go-martini/martini"
 )
 
